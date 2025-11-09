@@ -60,7 +60,7 @@ def func_categorize_escolmae(cod_escol):
 def func_categorize_gravidez(cod_grav):
     if cod_grav == 1:
         return "Unica"
-    elif 2 <= cod_grav <= 3:
+    elif 2 <= cod_grav <= 8:
         return "Multipla"
     else:
         return "Ignorado"
