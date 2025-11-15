@@ -154,7 +154,9 @@ def func_peso_calculado(sexo: int, peso: float, semana_gest: int):
         return 'PIG'
     elif peso_10 <= peso <= peso_90:
         return 'AIG'
-    else:
+    elif peso > peso_90:
         return 'GIG'
+    else:
+        return 'ignorado'
 
 
